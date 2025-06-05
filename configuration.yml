@@ -1,9 +1,11 @@
 #Account info write the username of all your account
 account_username:
-  - "samuelFawo74775"
+  - "Samuel79562829"
+  - "Titusnfts"
 #Account info write the password of all your account
 account_password:
   - "desney28"
+  - "Ijustwantafreeaccount"
 
 
 wallet_address: "0xA4cb4d482fAB5AC0D7e501a787E2A60bCb7374aa"
@@ -545,6 +547,11 @@ hashtag_to_blacklist:
 # We don't want to participate in giveaway with these words
 giveaway_to_blacklist:
   - "nude"
+  - "vist"
+  - "link"
+  - "click"
+  - "go to"
+  - "invite"
   - "anal"
   - "sex"
   - "sorare"
