@@ -49,6 +49,8 @@ class Data:
     copy = data["copy"]
     tag_more_than_three = data["tag_more_than_three"]
     accounts_to_tag_more = data["accounts_to_tag_more"]
+    wallet_address = data["wallet_address"]
+    wallet_trigger_keywords = data["wallet_trigger_keywords"]
 
 
 def is_date_older_than_a_number_of_day(date_str):
@@ -93,6 +95,21 @@ def delete_hashtag_we_dont_want(l):
             new_l.append(elem.lower() + " ")
     new_l = list(dict.fromkeys(new_l))
     return (" ".join(new_l))
+
+def requires_wallet(text):
+    text_lower = text.lower()
+    return any(keyword in text_lower for keyword in Data.wallet_trigger_keywords)
+
+def generate_reply(require_wallet=False):
+    comment = random.choice(Data.sentence_for_random_comment)
+
+    # Tag 3 people
+    tags = " ".join(Data.accounts_to_tag_[:3])
+
+    if require_wallet:
+        return f"{comment} {tags} {Data.wallet_address}"
+    else:
+        return f"{comment} {tags}"
 
 
 def check_for_forbidden_word(sentence):

@@ -1,12 +1,73 @@
 #Account info write the username of all your account
 account_username:
-  - "a"
+  - "Samuel79562829"
 #Account info write the password of all your account
 account_password:
-  - "z"
+  - "desney28"
+
+
+wallet_address: "0xA4cb4d482fAB5AC0D7e501a787E2A60bCb7374aa"
+
+wallet_trigger_keywords:
+  - "drop your wallet"
+  - "wallet address"
+  - "drop wallet"
+  - "wallet pls"
+  - "wallet plz"
+  - "paste your wallet"
+  - "drop ur wallet"
+  - "tag & drop wallet"
+  - "tag 3 and drop"
 
 # Words to search for giveaway
+
 words_to_search:
+  - "whitelist giveaway"
+  - "nft whitelist"
+  - "nft giveaway"
+  - "win whitelist spot"
+  - "join whitelist"
+  - "get whitelisted"
+  - "mint pass giveaway"
+  - "airdrop whitelist"
+  - "WL giveaway"
+  - "retweet follow whitelist"
+  - "like rt follow whitelist"
+  - "retweet + follow + tag"
+  - "wl spot rt follow"
+  - "rt + follow"
+  - "rt & follow"
+  - "follow and retweet"
+  - "like + rt + follow"
+  - "tag 3 friends"
+  - "tag 2 friends + rt"
+  - "RT + tag + follow"
+  - "follow us + RT"
+  - "follow like rt win"
+  - "rt follow tag to win"
+  - "concours whitelist"
+  - "concours nft"
+  - "concours tirage au sort"
+  - "JeuConcours whitelist"
+  - "gagner whitelist"
+  - "offre follow gagnant"
+  - "concours pour gagner"
+  - "RT + Follow + Tag"
+  - "rt follow tas"
+  - "rt suivre tirage au sort"
+  - "concours rt follow"
+  - "rt suivre concours"
+  - "suivre + rt + tag"
+  - "tirage au sort rt follow"
+  - "tirage whitelist"
+  - "gagnez une place whitelist"
+  - "concours remporter whitelist"
+  - "whitelist à gagner"
+  - "résultats le rt"
+  - "concours nft résultats"
+  - "nft concours résultat"
+  - "WL à gagner"
+
   - "giveaway"
   - "#concours"
   - "concours"
@@ -170,9 +231,14 @@ three_or_more_poeple_list:
 
 # Accounts we want to invite you must but a space at the end of each account and a space at the	start of the first account
 accounts_to_tag:
-  - "@Mediavenir "
-  - "@NetflixFR "
-  - "@ActuFoot_ "
+  - "@The_H_M_B "
+  - "@luchi_lul "
+  - "@EvaristusItane1 "
+  - "@olamide0924"
+  - "@UrsaNoir80393"
+  - "@0xCryptax"
+  - "_mxyowa"
+  - "andrea_fra69449"
 
   
 tag_more_than_three: False
@@ -379,9 +445,47 @@ sentence_for_tag:
 
 # Sentences you need to tweet when you need to do a comment but don't need to invite friend you must but a space at the end of each sentence
 sentence_for_random_comment:
-  - "Merci ! "
-  - "Je participe "
-  - "Hop Hop "
+  - "gib"
+  - "need this fr"
+  - "clean"
+  - "save me"
+  - "i’m down bad"
+  - "need that WL"
+  - "cook"
+  - "wl me"
+  - "hoping for this one"
+  - "solid project"
+  - "vouch"
+  - "fire"
+  - "big fan"
+  - "i’m in"
+  - "this one hits"
+  - "sheeesh"
+  - "bless me"
+  - "pls gib"
+  - "i’ve been grinding"
+  - "this is the one"
+  - "count me in"
+  - "don’t fumble this"
+  - "crazy art"
+  - "need the mint"
+  - "trust"
+  - "sending it"
+  - "i’m cooking"
+  - "clean entry"
+  - "bless up"
+  - "i’m early"
+  - "top tier"
+  - "this looks promising"
+  - "not missing this"
+  - "hope i get lucky"
+  - "banger"
+  - "day 3 trying"
+  - "this the meta"
+  - "future bluechip?"
+  - "need this WL bad"
+  - "built different"
+  - "crazy potential"
   - "Que la force soit avec moi "
   - "Je tente ma chance ! J'espère que je vais gagner ! "
   - "J'espère que vais gagner ! "
@@ -391,12 +495,6 @@ sentence_for_random_comment:
   - "On croise les doigts ! "
   - "C'est pour moi ça ! "
   - "Celui là on le gagne"
-  - "J'espère que vais gagner ! Je participe ! "
-  - "Merci d'organiser ce concours ! "
-  - "Bonne chance à tous ! "
-  - "J'adore les concours et surtout celui si "
-  - "J'ai tellement envie de gagner "
-  - "Bonjour je participe avec plaisir. Merci pour ce concours et bonne journée ! "
   - "Merci beaucoup pour j'adore votre compte. Je vous souhaite une belle continuation "
   - "Bonjour je participe avec plaisir à ce super concours "
   - "Superbe ! Je tente ma chance bien volontiers "
@@ -482,10 +580,10 @@ flux_rss:
 copy: True
 
 #If forever_loop is set to true the bot will run forever otherwise it will run once
-forever_loop: False
+forever_loop: True
 
 #The minimum time to wait in second beetween each follow, giveaway done (Like,Retweet,Comment if needed) , random tweet, random retweet the bot will choose a random time beetween min and max time
-min_time: 45
+min_time: 35
 #If this option is set to true the bot will make a sleep of 1H30 every 10 giveaways to act more human
 human: False
 
@@ -508,9 +606,9 @@ rt_your_word: False
 
 # Word to this list will be used to rt random tweet
 word_to_rt:
-  - "football"
-  - "musique"
-  - "cinema"
+  - "web3"
+  - "nft"
+  - "hyperliquid"
   
 # If those words are on the tweet to rt the bot won't rt the tweet
 
@@ -519,28 +617,28 @@ rt_to_blacklist:
   - "concours"
 
 #If the option is set to True the bot will add # to comment other he won't
-add_hashtag_to_comment: True
+add_hashtag_to_comment: False
 
 # If the value is set to true the bot will make random retweet and tweet
 random_retweet_and_tweet: True
 
 # The number of random tweet to do (to make this work only if your account is new otherwise you can skip it you need to make a tweet and accept twitter circle once and then it will work) 
-random_tweet_nb: 5
+random_tweet_nb: 1
 
 # The number of random retweet to do
-random_retweet_nb: 5
+random_retweet_nb: 2
 
 # The language of the tweet to search fr,en etc put any if you want to search tweet in any language
-tweet_lang: "fr"
+tweet_lang: "any"
 
 # Maximum number of giveaway retrieve for each word
 max_giveaway: 100
 
 # Minimum of like the tweet must have
-minimum_like: 100
+minimum_like: 10
 
 # Minimum of reetweet the tweet must have
-minimum_rt: 200
+minimum_rt: 20
 
 #Maximum day for a giveaway to be done
 maximum_day: 7
